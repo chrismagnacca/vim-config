@@ -1,5 +1,4 @@
-set rtp+=~/.vim/bundle/neobundle.vim/
-
+set runtimepath+=~/.vim/bundle/neobundle.vim/
 
 set nocompatible  " be iMproved, required
 filetype off      " required
@@ -18,4 +17,4 @@ runtime! custom_config/*.vim
 autocmd Filetype gitcommit setlocal spell textwidth=72
 
 " bring in the powerline bindings for vim                                                                                                                                                                                                  
-set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
+set runtimepath+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
